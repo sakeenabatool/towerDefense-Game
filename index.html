@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tower Defense Game 🏰💥</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tower Defense Game 🏰💥</h1>
+      <div id="hud">
+        <span id="health">Health: 100</span>
+        <span id="money">Money: 100</span>
+        <span id="wave">Wave: 1</span>
+      </div>
+    </header>
+
+    <div id="gameContainer">
+      <main>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+      </main>
+
+      <aside id="controls">
+        <h2>Build Towers</h2>
+        <button id="buildBasicTower">Basic Tower (Cost: 50)</button>
+        <button id="buildSniperTower">Sniper Tower (Cost: 100)</button>
+        <button id="buildSlowTower">Slow Tower (Cost: 75)</button>
+
+        <h2>Upgrades</h2>
+        <button id="upgradeTower">Upgrade Selected Tower</button>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Defend your base! Place towers along the path to stop the enemies.</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Connect JS -->
+  </body>
+</html>
