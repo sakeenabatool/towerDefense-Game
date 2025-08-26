@@ -2,10 +2,6 @@
 
 A simple **Tower Defense Game** built with HTML5 Canvas, JavaScript, and CSS.
 
-## 🖼️ Preview
-
-![Game Screenshot](assets/screenshot.png)
-
 ## 🚀 Features
 
 - Enemies follow a fixed path.
